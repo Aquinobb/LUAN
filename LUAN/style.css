@@ -1,0 +1,170 @@
+/* Resetando margens e preenchimento de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o corpo da página */
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4B0082; /* Roxo */
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Amarelo dourado ao passar o mouse */
+}
+
+/* Seção Sobre */
+#sobre {
+    padding: 40px 0;
+}
+
+#sobre .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sobre .perfil-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+#sobre h2 {
+    color: #4B0082; /* Roxo */
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    font-size: 1.2em;
+    color: #ccc; /* Cinza claro para o texto */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Seção Projetos */
+#projetos {
+    padding: 40px 0;
+}
+
+#projetos .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#projetos h2 {
+    color: #4B0082; /* Roxo */
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projeto {
+    background-color: #333; /* Preto para os projetos */
+    border: 1px solid #4B0082; /* Borda roxa */
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+}
+
+.projeto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projeto p {
+    padding: 15px;
+    color: #ddd; /* Cinza claro para o texto do projeto */
+}
+
+/* Seção Contato */
+#contato {
+    padding: 40px 0;
+}
+
+#contato .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contato h2 {
+    color: #4B0082; /* Roxo */
+    margin-bottom: 20px;
+}
+
+#contato p {
+    font-size: 1.2em;
+}
+
+#contato a {
+    color: #4B0082; /* Roxo */
+    text-decoration: none;
+}
+
+#contato a:hover {
+    color: #FFD700; /* Amarelo dourado ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #4B0082; /* Roxo */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
